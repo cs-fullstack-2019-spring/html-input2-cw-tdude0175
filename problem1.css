@@ -10,13 +10,14 @@ fieldset
 }
 h1
 {
+    text-align: center;
     background: azure;
 }
 .outside
 {
     background: azure;
     border: 1px solid lightgray ;
-    margin: 10% 30%;
+    margin: 10% 23%;
 }
 label
 {
