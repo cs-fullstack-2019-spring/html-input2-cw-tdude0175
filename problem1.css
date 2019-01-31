@@ -8,6 +8,7 @@ fieldset
     background: lightcoral;
     border: 0;
 }
+/*fieldset to get rid of the border lines around all text*/
 h1
 {
     text-align: center;
@@ -19,6 +20,7 @@ h1
     border: 1px solid lightgray ;
     margin: 10% 23%;
 }
+
 label
 {
     background: lightpink;
@@ -32,3 +34,4 @@ span
     background: black;
     color: red;
 }
+/*give it a bunch of color and style*/
