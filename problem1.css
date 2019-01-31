@@ -1,0 +1,33 @@
+*
+{
+    background: gray;
+}
+
+fieldset
+{
+    background: lightcoral;
+    border: 0;
+}
+h1
+{
+    background: azure;
+}
+.outside
+{
+    background: azure;
+    border: 1px solid lightgray ;
+    margin: 10% 30%;
+}
+label
+{
+    background: lightpink;
+}
+input
+{
+    background: white;
+}
+span
+{
+    background: black;
+    color: red;
+}

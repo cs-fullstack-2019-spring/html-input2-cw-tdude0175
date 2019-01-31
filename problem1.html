@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Duplicate the form depicted in the included image. Note the following:
+
+Use placeholders where shown
+Make First and Last name required, as well as checkbox for agreeing to the terms
+Use the proper 'type' field for email, password, and birthday
+Style as close to the example as you can but feel free to add additional styling (as it is quite the boring form...)-->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="problem1.css">
+</head>
+<body class="outside">
+<header><h1>Register</h1></header>
+<form  action="">
+    <fieldset>
+        <label for="Firstname">First Name:</label>
+        <input type="text" name="firstname" id="Firstname" placeholder="John" required/>
+        <label for="Lastname">Last Name:</label>
+        <input type="text" name="lastname" id="Lastname" placeholder="Smith" required>
+    </fieldset>
+    <fieldset>
+        <input type="radio" name="gender" value="Male"/>Male
+        <input type="radio" name="gender" value="Female"/>Female
+        <input type="radio" name="gender" value="Other"/>Other
+    </fieldset>
+    <fieldset>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" placeholder="your email">
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" placeholder="your password">
+    </fieldset>
+    <fieldset>
+        <label for="Birthday">Birthday:</label>
+        <input type="date" id="Birthday">
+    </fieldset>
+    <fieldset>
+        <span>I agree to the terms and conditions</span>
+        <input type="checkbox" value="Terms" required>
+    </fieldset>
+    <fieldset><input type="submit" value="Submit"></fieldset>
+</form>
+
+</body>
+</html>
