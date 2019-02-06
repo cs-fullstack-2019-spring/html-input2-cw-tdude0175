@@ -1,3 +1,6 @@
+### 2 POINTS
+### KEY: Well done!
+
 # HTML Input 2 CW
 
 Duplicate the form depicted in the included image. Note the following:
